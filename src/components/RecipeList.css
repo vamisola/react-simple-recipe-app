@@ -1,12 +1,11 @@
 .recipe-list {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 @media (max-width: 580px) {
   .recipe-list {
     display: block;
-    justify-content: center;
   }
 }
